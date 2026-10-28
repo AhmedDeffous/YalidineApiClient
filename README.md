@@ -30,7 +30,7 @@ recuperation de la liste des wilayas:
                 ObjYParcelToCreate.Height = TxtHeight.IntValue;
                 ObjYParcelToCreate.IsStopdesk = TxtIsStopdesk.Checked;
                 ObjYParcelToCreate.Length = TxtLength.IntValue;
-                ObjYParcelToCreate.OrderId = TxtOrderId.Text = Guid.NewGuid().ToString().ToUpper();
+                ObjYParcelToCreate.OrderId = TxtOrderId.Text = Guid.NewGuid().ToString().ToUpper(); 
                 ObjYParcelToCreate.Price = TxtPrice.IntValue;
                 ObjYParcelToCreate.ProductList = TxtProductList.Text;
                 ObjYParcelToCreate.ProductToCollect = null;
